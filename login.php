@@ -53,9 +53,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     </head>
-    <body>
+    <body class="bg">
         <h1>LOGIN TO NEWSILO</h1>
-        <br><br>
+        <br>
         <div id="form">
             <form name="form" action="login.php" method="POST" required>
                 <label>Enter Username/Email: </label>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="links">
                     <p>Don't have an account yet?</p>
-                    <a href="signup.php" id="signUpButton" class="btnSign">Sign Up</a>
+                    <a href="signup.php" id="signUpButton" class="btnSign">SignUp</a>
                 </div>
             </form>
         </div>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - NEWSILO</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #000;
+            color: #fff;
+            text-align: center;
+            margin: 50px;
+        }
+        h2 {
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+        form {
+            background: #111;
+            padding: 20px;
+            width: 350px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            background: #222;
+            color: #fff;
+            border: 1px solid #444;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input::placeholder, textarea::placeholder {
+            color: #aaa;
+        }
+        button {
+            background: #fff;
+            color: #000;
+            padding: 12px;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #ccc;
+        }
+        .message {
+            margin-top: 20px;
+            padding: 10px;
+            width: 350px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .success {
+            background: #0a0;
+            color: #fff;
+        }
+        .error {
+            background: #a00;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Contact Us</h2>
+
+    <form action="save_message.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+.bg-body-tertiary {
+    background-color: #f7f6f6 !important; /* Dark gray background */
+}
+
+.container-fluid img {
+    height: 50px;
+}
+
+.container-fluid div {
+    font-weight: 700;
+    font-size: larger;
+    color: rgb(5, 5, 5);
+}
+
+.form-control {
+    width: 200px;
+}
+
+.btn-outline-DARK {
+    border: 2px solid black;
+    color:  black;
+}
+
+.btn-outline-DARK:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-dark {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: black !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-brand:hover {
+    color: #4a4b4b !important;
+}
+
+.background{
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar-brand {
+        display: block;
+        padding: 5px;
+    }
+}
