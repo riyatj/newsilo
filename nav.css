@@ -54,3 +54,47 @@
         padding: 5px;
     }
 }
+
+#searchResults {
+    position: absolute;
+    background: white;
+    width: 200px;
+    border: 1px solid #ddd;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+#searchResults ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#searchResults li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+#searchResults li:hover {
+    background: #f0f0f0;
+}
+
+.news-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-list li {
+    margin: 10px 0;
+}
+
+.news-list a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+h2 {
+    color: black;
+}

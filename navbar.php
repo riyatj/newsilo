@@ -2,10 +2,11 @@
         <div class="container-fluid"> 
           <img src="images\LOGO.png" alt="..." style="height: 50px;"><div style="font-weight: 700;font-size:larger">NEWSILO</div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 720px;">          
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-DARK" type="submit">Search</button>
-            </form>
+          <form id="searchForm" class="d-flex" role="search" action="search_results.php" method="GET">
+              <input class="form-control me-2" type="search" name="q" id="searchInput" placeholder="Search news..." aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+
             &nbsp;
             <form class="d-flex" >
               <a class="btn btn-dark" type="submit" href="logout.php">Logout</a>

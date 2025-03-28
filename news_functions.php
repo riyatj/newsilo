@@ -121,10 +121,13 @@ function renderNewsCard($article) {
     $title = htmlspecialchars($article['title']);
     $source = htmlspecialchars($article['source']);
     $url = htmlspecialchars($article['url']);
-    $summary = isset($article['summary']) ? htmlspecialchars($article['summary']) : '';
-    $imageUrl = isset($article['image_url']) && $article['image_url'] 
-        ? htmlspecialchars($article['image_url']) 
-        : 'images/default-news.jpg';
+    $summary = isset($article['summary']) ? htmlspecialchars($article['summary']) : ''; 
+    
+    // Improved image URL handling
+    $imageUrl = 'images/default-news.jpg';
+    if (isset($article['image_url']) && !empty($article['image_url'])) {
+        $imageUrl = htmlspecialchars($article['image_url']);
+    }
     
     $date = isset($article['published_date']) 
         ? date('M j, Y', strtotime($article['published_date'])) 
@@ -133,7 +136,7 @@ function renderNewsCard($article) {
     return <<<HTML
     <div class="col-md-4 mb-4">
         <div class="card h-100">
-            <img src="{$imageUrl}" class="card-img-top" alt="{$title}" onerror="this.src='images/default-news.jpg';">
+            <img src="{$imageUrl}" class="card-img-top" alt="{$title}">
             <div class="card-body">
                 <h5 class="card-title">{$title}</h5>
                 <p class="card-text text-truncate">{$summary}</p>
@@ -143,14 +146,12 @@ function renderNewsCard($article) {
                 </div>
             </div>
             <div class="card-footer bg-transparent border-top-0 d-flex justify-content-between">
-                <a href="article.php?id={$id}" class="btn btn-outline-primary">Read Article</a>
-                <a href="{$url}" class="btn btn-outline-dark" target="_blank">Original Source</a>
+                <a href="{$url}" class="btn btn-outline-dark" target="_blank">Read More</a>
             </div>
         </div>
     </div>
 HTML;
 }
-
 /**
  * Fetch a specific article by ID
  * 

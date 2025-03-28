@@ -54,7 +54,7 @@
 
     </head>
     <body class="bg">
-        <h1>LOGIN TO NEWSILO</h1>
+        <h1>LOG IN TO NEWSILO</h1>
         <br>
         <div id="form">
             <form name="form" action="login.php" method="POST" required>

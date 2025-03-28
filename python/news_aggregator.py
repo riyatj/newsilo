@@ -12,23 +12,25 @@ class NewsAggregator:
     def __init__(self, db_config):
         """Initialize the news aggregator with database configuration."""
         self.db_config = db_config
-        # Updated source list to include Indian news websites across categories
         self.sources = {
             "general": [
                 {"url": "https://www.thehindu.com/", "site": "The Hindu"},
                 {"url": "https://timesofindia.indiatimes.com/", "site": "Times of India"},
                 {"url": "https://indianexpress.com/", "site": "Indian Express"},
-                {"url": "https://www.hindustantimes.com/", "site": "Hindustan Times"}
+                {"url": "https://www.hindustantimes.com/", "site": "Hindustan Times"},
+                {"url": "https://news360.tv/en/" , "site": "news360"}
             ],
             "business": [
                 {"url": "https://economictimes.indiatimes.com/", "site": "Economic Times"},
-                {"url": "https://www.business-standard.com/", "site": "Business Standard"},
                 {"url": "https://www.livemint.com/", "site": "Mint"}
             ],
             "technology": [
-                {"url": "https://tech.hindustantimes.com/", "site": "HT Tech"},
-                {"url": "https://www.gadgetsnow.com/", "site": "Gadgets Now"},
-                {"url": "https://www.digit.in/", "site": "Digit"}
+                {"url": "https://techcrunch.com/", "site": "techcrunch"},
+                {"url": "https://www.theverge.com/tech", "site": "The Verge tech"},
+                {"url": "https://www.reuters.com/technology/", "site": "reuters"},
+                {"url": "https://www.wired.com/tag/technology/", "site": "wired"},
+                {"url": "https://www.techmeme.com/", "site": "techmeme"},
+                {"url": "https://www.bbc.com/innovation", "site": "bbc"}
             ],
             "sports": [
                 {"url": "https://sportstar.thehindu.com/", "site": "Sportstar"},
@@ -41,9 +43,23 @@ class NewsAggregator:
                 {"url": "https://indianexpress.com/section/entertainment/", "site": "IE Entertainment"}
             ],
             "politics": [
+                {"url": "https://www.politico.com/", "site": "Politico"},
+                {"url": "https://www.vox.com/politics", "site": "Vox politics"},
                 {"url": "https://www.ndtv.com/india", "site": "NDTV India"},
                 {"url": "https://www.news18.com/politics/", "site": "News18 Politics"},
-                {"url": "https://www.thehindu.com/news/national/", "site": "The Hindu National"}
+                {"url": "https://www.thehindu.com/news/national/", "site": "The Hindu National"},
+                {"url": "https://abcnews.go.com/Politics", "site": "abcnews"},
+                {"url": "https://www.propublica.org/", "site": "ProPublica"}
+            ],
+            "education": [
+                {"url": "https://www.edsurge.com/", "site": "EdSurge"},
+                {"url": "https://indianexpress.com/section/education/", "site": "The Indian Express"},
+                {"url": "https://indianexpress.com/section/entertainment/", "site": "IE Entertainment"}
+            ],
+             "travel": [
+                {"url": "https://timesofindia.indiatimes.com/entertainment", "site": "TOI Entertainment"},
+                {"url": "https://www.filmfare.com/", "site": "Filmfare"},
+                {"url": "https://timesofindia.indiatimes.com/education", "site": "TOI education"}
             ]
         }
         # User agent list to rotate and avoid being blocked

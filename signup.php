@@ -65,7 +65,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
   <body class="bg">
-  <h1>SIGNIN TO NEWSILO</h1>
+  <h1>SIGN UP TO NEWSILO</h1>
   <br>
     <div id="form">
         <h1 id="heading">SignUp Form</h1>   
@@ -87,7 +87,7 @@
                 </div>
                 <div class="links">
                     <p>Already exist an account?</p>
-                    <a href="login.php" id="loginButton" class="btnSign">Login</a>
+                    <a href="login.php" id="loginButton" class="btnSign">LogIn</a>
                 </div>
         </form>
     </div> 
