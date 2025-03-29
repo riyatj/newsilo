@@ -64,10 +64,10 @@ $totalPages = ceil($totalArticles / $perPage);
     <link rel="stylesheet" href="nav.css">
     <style>
         .category-header {
-            background-color: #f8f9fa;
+            background-color:rgb(0, 0, 0);
             padding: 20px 0;
             margin-bottom: 30px;
-            border-bottom: 1px solid #e9ecef;
+            border-bottom: 1px solid #e9ecef ;
         }
         .service-alert {
             margin: 20px 0;

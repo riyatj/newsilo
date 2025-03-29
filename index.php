@@ -40,7 +40,7 @@
   
   <body>
     <?php 
-      include "navbar.php";
+      include "indexnav.php";
       include "news_functions.php";
     ?>
     <div class="background"></div>
@@ -66,7 +66,7 @@
           ?>
         </div>
         <div class="view-more">
-          <a href="welcome.php" class="btn btn-dark">View More News</a>
+          <a href="signup.php" class="btn btn-dark">View More News</a>
         </div>
       </div>
     </div>

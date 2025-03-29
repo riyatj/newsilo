@@ -9,7 +9,7 @@
 
             &nbsp;
             <form class="d-flex" >
-              <a class="btn btn-dark" type="submit" href="logout.php">Logout</a>
+              <a class="btn btn-dark" type="submit" href="login.php">LogIn</a>
             </form>
           </div>
         </div>
@@ -17,31 +17,31 @@
 
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="welcome.php">HOME</a>
+          <a class="navbar-brand" href="index.php">HOME</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="category.php?category=entertainment">ENTERTAINMENT</a>
+          <a class="navbar-brand" href="signup.php">ENTERTAINMENT</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="category.php?category=technology">TECHNOLOGY</a>
+          <a class="navbar-brand" href="signup.php">TECHNOLOGY</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="category.php?category=politics">POLITICS</a>
+          <a class="navbar-brand" href="signup.php">POLITICS</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="category.php?category=education">EDUCATION</a>
+          <a class="navbar-brand" href="signup.php">EDUCATION</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="category.php?category=sports">SPORTS</a>
+          <a class="navbar-brand" href="signup.php">SPORTS</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="category.php?category=travel">TRAVEL</a>
+          <a class="navbar-brand" href="signup.php">TRAVEL</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

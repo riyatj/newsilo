@@ -14,6 +14,7 @@ class NewsAggregator:
         self.db_config = db_config
         self.sources = {
             "general": [
+                {"url": "https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN:en", "site": "Google News"},
                 {"url": "https://www.thehindu.com/", "site": "The Hindu"},
                 {"url": "https://timesofindia.indiatimes.com/", "site": "Times of India"},
                 {"url": "https://indianexpress.com/", "site": "Indian Express"},
@@ -57,9 +58,9 @@ class NewsAggregator:
                 {"url": "https://indianexpress.com/section/entertainment/", "site": "IE Entertainment"}
             ],
              "travel": [
-                {"url": "https://timesofindia.indiatimes.com/entertainment", "site": "TOI Entertainment"},
-                {"url": "https://www.filmfare.com/", "site": "Filmfare"},
-                {"url": "https://timesofindia.indiatimes.com/education", "site": "TOI education"}
+                {"url": "https://www.bbc.com/travel", "site": "BBC travel"},
+                {"url": "https://edition.cnn.com/travel/new", "site": "CCN travel"},
+                {"url": "https://travel.economictimes.indiatimes.com/", "site": "ET TravelWorld"}
             ]
         }
         # User agent list to rotate and avoid being blocked
