@@ -9,14 +9,17 @@
     <link rel="stylesheet" href="nav.css">
     <style>
       .news-section {
-        margin-top: 70px;
+        margin-top: 40px;
         margin-bottom: 50px;
       }
       .news-section h2 {
         margin-bottom: 30px;
         text-align: center;
         font-weight: bold;
-        color: #fff;
+        color: white;
+        background-color: black;
+        padding-top : 40px;
+        padding-bottom : 30px;
       }
       .view-more {
         text-align: center;

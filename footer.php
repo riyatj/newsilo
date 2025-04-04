@@ -36,7 +36,7 @@
         <div class="row mt-4">
             <div class="col-12 text-center">
                 <p>&copy; 2025 NEWSILO. All Rights Reserved.</p>
-                <p>newsilo2025@gmail.com</p>
+                <p>newsilo2425@gmail.com</p>
             </div>
         </div>
     </div>

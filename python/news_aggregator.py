@@ -14,12 +14,12 @@ class NewsAggregator:
         self.db_config = db_config
         self.sources = {
             "general": [
-                {"url": "https://news.google.com/home?hl=en-IN&gl=IN&ceid=IN:en", "site": "Google News"},
-                {"url": "https://www.thehindu.com/", "site": "The Hindu"},
-                {"url": "https://timesofindia.indiatimes.com/", "site": "Times of India"},
+                {"url": "https://flipboard.com/", "site": "Flipboard"},
+                {"url": "https://www.dailyhunt.in/", "site": "Dailyhunt"},
+                {"url": "https://www.news18.com/", "site": "News18"},
                 {"url": "https://indianexpress.com/", "site": "Indian Express"},
                 {"url": "https://www.hindustantimes.com/", "site": "Hindustan Times"},
-                {"url": "https://news360.tv/en/" , "site": "news360"}
+                {"url": "https://www.reddit.com/" , "site": "Reddit"}
             ],
             "business": [
                 {"url": "https://economictimes.indiatimes.com/", "site": "Economic Times"},

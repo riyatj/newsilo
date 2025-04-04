@@ -1,924 +1,247 @@
-2025-03-26 23:00:22,822 - __main__ - INFO - Running scheduled news update
-2025-03-26 23:00:23,131 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.56.30:5000
-2025-03-26 23:00:23,131 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-26 23:00:23,140 - werkzeug - INFO -  * Restarting with stat
-2025-03-26 23:00:25,692 - __main__ - INFO - Running scheduled news update
-2025-03-26 23:00:25,768 - werkzeug - WARNING -  * Debugger is active!
-2025-03-26 23:00:25,784 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-26 23:00:38,866 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 23:00:38] "GET /api/status HTTP/1.1" 200 -
-2025-03-26 23:00:39,108 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 23:00:39] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-26 23:01:57,513 - __main__ - INFO - Scheduled update completed. Added 24 new articles.
-2025-03-26 23:01:57,578 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-26 23:08:02,665 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 23:08:02] "GET /api/status HTTP/1.1" 200 -
-2025-03-26 23:08:02,894 - werkzeug - INFO - 127.0.0.1 - - [26/Mar/2025 23:08:02] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-26 23:16:14,027 - __main__ - INFO - Running scheduled news update
-2025-03-26 23:16:14,101 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.56.30:5000
-2025-03-26 23:16:14,101 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-26 23:16:14,104 - werkzeug - INFO -  * Restarting with stat
-2025-03-26 23:16:15,898 - __main__ - INFO - Running scheduled news update
-2025-03-26 23:16:15,933 - werkzeug - WARNING -  * Debugger is active!
-2025-03-26 23:16:15,941 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-26 23:17:56,004 - __main__ - INFO - Scheduled update completed. Added 2 new articles.
-2025-03-26 23:17:56,102 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-27 10:29:05,403 - __main__ - INFO - Running scheduled news update
-2025-03-27 10:29:05,502 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.171.30:5000
-2025-03-27 10:29:05,502 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-27 10:29:05,507 - werkzeug - INFO -  * Restarting with stat
-2025-03-27 10:29:07,330 - __main__ - INFO - Running scheduled news update
-2025-03-27 10:29:07,378 - werkzeug - WARNING -  * Debugger is active!
-2025-03-27 10:29:07,400 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-27 10:29:11,760 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:29:11] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-27 10:30:06,666 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:30:06] "GET /api/status HTTP/1.1" 200 -
-2025-03-27 10:30:06,904 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:30:06] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-27 10:30:22,708 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:30:22] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-27 10:30:27,728 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:30:27] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-27 10:30:27,974 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:30:27] "GET /api/status HTTP/1.1" 200 -
-2025-03-27 10:30:37,287 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:30:37] "GET /api/news?category=technology&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-27 10:30:37,532 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:30:37] "GET /api/status HTTP/1.1" 200 -
-2025-03-27 10:30:45,438 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:30:45] "GET /api/news?category=technology&limit=9&offset=18 HTTP/1.1" 200 -
-2025-03-27 10:30:45,853 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:30:45] "GET /api/status HTTP/1.1" 200 -
-2025-03-27 10:31:27,368 - __main__ - INFO - Scheduled update completed. Added 26 new articles.
-2025-03-27 10:31:27,430 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-27 10:34:09,334 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:34:09] "GET /api/status HTTP/1.1" 200 -
-2025-03-27 10:34:09,578 - werkzeug - INFO - 127.0.0.1 - - [27/Mar/2025 10:34:09] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:12:21,260 - __main__ - INFO - Running scheduled news update
-2025-03-28 19:12:21,450 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-04-01 10:18:34,626 - __main__ - INFO - Running scheduled news update
+2025-04-01 10:18:34,817 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://172.20.10.10:5000
-2025-03-28 19:12:21,451 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 19:12:21,455 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 19:12:24,001 - __main__ - INFO - Running scheduled news update
-2025-03-28 19:12:24,054 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 19:12:24,066 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 19:14:03,776 - __main__ - INFO - Scheduled update completed. Added 34 new articles.
-2025-03-28 19:14:07,976 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:07] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:14:08,216 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:08] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:14:10,120 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:10] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:14:10,359 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:10] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:14:12,947 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-28 19:14:24,617 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:24] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:14:28,299 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:28] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:14:28,521 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:28] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:14:32,507 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:32] "GET /api/news?category=technology&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-28 19:14:32,747 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:32] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:14:43,060 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:43] "GET /api/news?category=technology&limit=9&offset=18 HTTP/1.1" 200 -
-2025-03-28 19:14:43,298 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:43] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:14:48,673 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:48] "GET /api/news?category=technology&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-28 19:14:48,913 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:48] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:14:53,450 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:53] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:14:53,690 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:14:53] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:15:24,204 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:24] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:15:24,455 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:24] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:15:32,625 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:32] "GET /api/news?category=entertainment&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-28 19:15:32,885 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:32] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:15:42,784 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:42] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:15:43,026 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:43] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:15:46,289 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:46] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:15:46,527 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:46] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:15:49,352 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:49] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:15:49,578 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:49] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:15:51,343 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:51] "GET /api/news?category=sports&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:15:51,591 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:15:51] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:16:38,505 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:16:38] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:16:38,739 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:16:38] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:16:38,979 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:16:38] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:16:39,223 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:16:39] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:16:40,956 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:16:40] "GET /api/news?category=travel&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:16:41,190 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:16:41] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:16:56,618 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:16:56] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:16:56,854 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:16:56] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:16:58,216 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:16:58] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:16:58,455 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:16:58] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:17:00,666 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:17:00] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:17:00,902 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:17:00] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:18:43,770 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:18:43] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:19:08,834 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:19:08] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:19:20,275 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:19:20] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:21:00,159 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:21:00] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:21:00,384 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:21:00] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:21:11,021 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:21:11] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:21:16,855 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:21:16] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:21:17,084 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:21:17] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:21:53,579 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:21:53] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:21:53,813 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:21:53] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:21:59,270 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:21:59] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:21:59,494 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:21:59] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:22:20,875 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:22:20] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:22:21,099 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:22:21] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:22:21,634 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:22:21] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:22:21,874 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:22:21] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:28:25,245 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:28:25] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:31:09,538 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:31:09] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:43:58,793 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:43:58] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:43:59,350 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:43:59] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:44:14,104 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:44:14] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:47:27,316 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:47:27] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:47:28,730 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:47:28] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:47:29,244 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:47:29] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:57:37,121 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:57:37] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:57:37,650 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:57:37] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:57:40,595 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:57:40] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:57:40,847 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:57:40] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 19:57:46,057 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:57:46] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 19:57:46,285 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 19:57:46] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:00:22,101 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:00:22,502 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:00:26,657 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:00:26,739 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:00:26,764 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:00:34,600 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:00:34,918 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:00:39,226 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:00:39,325 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:00:39,348 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:00:41,447 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:00:41,878 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:00:46,827 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:00:46,873 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:00:46,890 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:00:48,989 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:00:49,375 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:00:54,042 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:00:54,077 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:00:54,100 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:01:01,593 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:01:01,878 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:01:06,425 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:01:06,584 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:01:06,608 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:01:11,102 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:01:11,310 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:01:14,677 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:01:14,727 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:01:14,752 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:01:17,842 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:01:18,222 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:01:23,353 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:01:23,411 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:01:23,426 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:01:47,760 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:01:47,837 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-04-01 10:18:34,818 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 10:18:34,822 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 10:18:37,456 - __main__ - INFO - Running scheduled news update
+2025-04-01 10:18:37,506 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 10:18:37,527 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-01 10:18:38,720 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:18:38] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 10:18:38,971 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:18:38] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:19:26,130 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:19:26] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:20:44,070 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:20:44] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:21:29,946 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:21:29] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 10:21:30,180 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:21:30] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:23:23,486 - __main__ - INFO - Scheduled update completed. Added 63 new articles.
+2025-04-01 10:23:23,652 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
+2025-04-01 10:26:55,743 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:26:55] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 10:26:55,967 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:26:55] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:26:57,517 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:26:57] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 10:26:57,751 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:26:57] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:26:58,232 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:26:58] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 10:26:58,472 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:26:58] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:27:00,436 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:27:00] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 10:27:00,664 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:27:00] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:27:01,219 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:27:01] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 10:27:01,455 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:27:01] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:29:19,419 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:29:19] "GET /api/status HTTP/1.1" 200 -
+2025-04-01 10:29:19,641 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:29:19] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:38:29,701 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:38:29] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:38:32,065 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:38:32] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:46:20,840 - __main__ - INFO - Running scheduled news update
+2025-04-01 10:46:21,020 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://172.20.10.10:5000
-2025-03-28 20:01:47,838 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 20:01:47,843 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:01:49,464 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:01:49,499 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:01:49,511 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:02:45,778 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:02:45] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:02:46,309 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:02:46] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:02:46,678 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:02:46] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:02:46,931 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:02:46] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:02:47,186 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:02:47] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:02:47,433 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:02:47] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:02:49,913 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:02:49] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:02:50,144 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:02:50] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:03:03,263 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:03:03] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:03:03,498 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:03:03] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:03:06,883 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:03:06] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:03:07,103 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:03:07] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:03:41,867 - __main__ - INFO - Scheduled update completed. Added 7 new articles.
-2025-03-28 20:03:44,470 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-28 20:03:46,866 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:03:47,534 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:03:52,127 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:03:52,212 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:03:52,237 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:03:52,553 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:03:52] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:03:52,776 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:03:52] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:03:55,652 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:03:55] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:03:55,888 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:03:55] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:04:33,431 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:04:33,492 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-04-01 10:46:21,020 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 10:46:21,023 - werkzeug - INFO -  * Restarting with stat
+2025-04-01 10:46:24,902 - __main__ - INFO - Running scheduled news update
+2025-04-01 10:46:24,948 - werkzeug - WARNING -  * Debugger is active!
+2025-04-01 10:46:24,959 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-01 10:46:25,052 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:46:25] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:48:41,994 - werkzeug - INFO - 127.0.0.1 - - [01/Apr/2025 10:48:41] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-01 10:50:05,576 - __main__ - INFO - Scheduled update completed. Added 4 new articles.
+2025-04-01 10:50:05,736 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
+2025-04-02 00:19:33,729 - __main__ - INFO - Running scheduled news update
+2025-04-02 00:19:33,812 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
+2025-04-02 00:19:33,890 - __main__ - INFO - Running scheduled news update
+2025-04-02 00:19:33,964 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
+2025-04-02 09:38:57,070 - __main__ - INFO - Running scheduled news update
+2025-04-02 09:38:57,357 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://172.20.10.10:5000
-2025-03-28 20:04:33,492 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 20:04:33,495 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:04:35,012 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:04:35,048 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:04:35,056 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:05:31,559 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:31] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:05:31,807 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:31] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:05:34,360 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:34] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:05:34,591 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:34] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:05:38,080 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:38] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:05:38,332 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:38] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:05:38,608 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:38] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:05:38,867 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:38] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:05:49,998 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:49] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:05:50,243 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:50] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:05:50,508 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:50] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:05:50,815 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:50] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:05:56,276 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:56] "GET /api/news?category=entertainment&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-28 20:05:56,508 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:05:56] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:06:03,004 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:03] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:06:03,252 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:03] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:06:03,519 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:03] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:06:03,770 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:03] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:06:04,972 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:04] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:06:05,207 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:05] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:06:05,450 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:05] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:06:05,674 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:05] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:06:07,041 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:07] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:06:07,272 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:07] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:06:07,536 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:07] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:06:07,787 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:07] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:06:11,277 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:11] "GET /api/news?category=technology&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-28 20:06:11,522 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:11] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:06:16,836 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:16] "GET /api/news?category=technology&limit=9&offset=18 HTTP/1.1" 200 -
-2025-03-28 20:06:17,086 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:17] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:06:22,636 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-28 20:06:30,661 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-28 20:06:34,852 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:34] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:06:35,095 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:35] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:06:39,973 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:39] "GET /api/news?category=technology&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-28 20:06:40,216 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:40] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:06:44,304 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:44] "GET /api/news?category=technology&limit=9&offset=18 HTTP/1.1" 200 -
-2025-03-28 20:06:44,553 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:06:44] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:07:16,466 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:07:16] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:07:16,702 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:07:16] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:08:52,419 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:08:52,712 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:08:55,478 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:08:55,554 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:08:55,568 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:08:56,628 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:08:56,827 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:08:59,993 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:09:00,056 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:09:00,064 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:09:02,125 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:09:02,427 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:10:03,518 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:10:03,592 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-04-02 09:38:57,357 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 09:38:57,361 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 09:39:00,746 - __main__ - INFO - Running scheduled news update
+2025-04-02 09:39:00,831 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 09:39:00,869 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-02 09:41:23,245 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
+2025-04-02 09:41:23,587 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 09:41:28,402 - __main__ - INFO - Running scheduled news update
+2025-04-02 09:41:28,453 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 09:41:28,465 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-02 09:41:59,246 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
+2025-04-02 09:41:59,650 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 09:42:01,587 - __main__ - INFO - Running scheduled news update
+2025-04-02 09:42:01,634 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 09:42:01,646 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-02 09:42:14,066 - __main__ - INFO - Scheduled update completed. Added 55 new articles.
+2025-04-02 09:43:05,124 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
+2025-04-02 09:43:05,495 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 09:43:07,474 - __main__ - INFO - Running scheduled news update
+2025-04-02 09:43:07,547 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 09:43:07,559 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-02 09:43:09,616 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
+2025-04-02 09:43:09,825 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 09:43:14,549 - __main__ - INFO - Running scheduled news update
+2025-04-02 09:43:14,811 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 09:43:14,823 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-02 09:44:00,074 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
+2025-04-02 09:44:00,378 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 09:44:03,208 - __main__ - INFO - Running scheduled news update
+2025-04-02 09:44:03,271 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 09:44:03,288 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-02 09:46:50,423 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
+2025-04-02 09:46:50,753 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 09:46:53,856 - __main__ - INFO - Running scheduled news update
+2025-04-02 09:46:53,905 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 09:46:53,914 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-02 09:46:54,958 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
+2025-04-02 09:46:55,208 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 09:47:01,234 - __main__ - INFO - Running scheduled news update
+2025-04-02 09:47:01,377 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 09:47:01,406 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-02 09:50:09,955 - __main__ - INFO - Scheduled update completed. Added 10 new articles.
+2025-04-02 09:52:14,087 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:52:14] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 09:52:14,331 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:52:14] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:52:56,944 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:52:56] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:53:02,386 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:02] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:53:02,633 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:02] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 09:53:12,278 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:12] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:53:12,502 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:12] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 09:53:15,551 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:15] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:53:15,780 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:15] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 09:53:17,675 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:17] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:53:17,900 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:17] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 09:53:20,046 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:20] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:53:21,954 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:21] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:53:33,242 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:33] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 09:53:33,482 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:53:33] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:56:11,855 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:56:11] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 09:56:12,093 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:56:12] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:56:12,678 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:56:12] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 09:56:12,916 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:56:12] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:56:14,849 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:56:14] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 09:56:15,085 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:56:15] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:56:15,633 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:56:15] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 09:56:15,889 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:56:15] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 09:56:20,367 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:56:20] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 09:56:20,606 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 09:56:20] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:02:28,708 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:02:28] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:02:28,933 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:02:28] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:02:29,481 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:02:29] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:02:29,714 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:02:29] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:02:48,276 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:02:48] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:02:48,505 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:02:48] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:02:56,920 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:02:56] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:02:57,160 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:02:57] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:03:45,509 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:03:45] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:03:45,739 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:03:45] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:04:08,706 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:04:08] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:04:08,937 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:04:08] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:04:42,079 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:04:42] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:04:50,456 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:04:50] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:04:50,699 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:04:50] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:05:01,128 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:01] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:05:01,370 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:01] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:05:03,534 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:03] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:05:03,767 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:03] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:05:05,166 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:05] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:05:05,394 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:05] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:05:06,713 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:06] "GET /api/news?category=sports&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:05:06,958 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:06] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:05:08,640 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:08] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:05:16,074 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:16] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:05:16,299 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:16] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:05:32,374 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:32] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:05:32,602 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:32] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:05:42,546 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:42] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:05:42,782 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:42] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:05:53,369 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:53] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:05:53,597 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:53] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:05:53,744 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:53] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:05:53,972 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:53] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:05:54,064 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:54] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:05:54,278 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:05:54] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:06:04,664 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:06:04] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:06:04,918 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:06:04] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:06:05,061 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:06:05] "GET /api/status HTTP/1.1" 200 -
+2025-04-02 10:06:05,316 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:06:05] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:21:09,325 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:21:09] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:24:45,158 - __main__ - INFO - Running scheduled news update
+2025-04-02 10:24:45,277 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://172.20.10.10:5000
-2025-03-28 20:10:03,592 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 20:10:03,595 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:10:07,489 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:10:07,563 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:10:07,584 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:11:29,525 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:11:30,015 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:11:35,040 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:11:35,142 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:11:35,164 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:11:50,958 - __main__ - INFO - Scheduled update completed. Added 3 new articles.
-2025-03-28 20:12:15,448 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:12:15,908 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:13:17,304 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:13:17,366 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-04-02 10:24:45,277 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-02 10:24:45,283 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 10:24:48,181 - __main__ - INFO - Running scheduled news update
+2025-04-02 10:24:48,317 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 10:24:48,350 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-02 10:27:37,679 - __main__ - INFO - Scheduled update completed. Added 5 new articles.
+2025-04-02 10:27:43,413 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
+2025-04-02 10:30:13,539 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
+2025-04-02 10:30:13,993 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 10:30:17,417 - __main__ - INFO - Running scheduled news update
+2025-04-02 10:30:17,539 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 10:30:17,558 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-02 10:30:20,677 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
+2025-04-02 10:30:20,797 - werkzeug - INFO -  * Restarting with stat
+2025-04-02 10:30:24,753 - __main__ - INFO - Running scheduled news update
+2025-04-02 10:30:24,805 - werkzeug - WARNING -  * Debugger is active!
+2025-04-02 10:30:24,815 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-02 10:31:10,779 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:31:10] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:31:16,949 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:31:16] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:31:17,337 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:31:17] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:31:39,378 - werkzeug - INFO - 127.0.0.1 - - [02/Apr/2025 10:31:39] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-02 10:33:23,732 - __main__ - INFO - Scheduled update completed. Added 2 new articles.
+2025-04-03 07:18:43,836 - __main__ - INFO - Running scheduled news update
+2025-04-03 07:18:44,197 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://172.20.10.10:5000
-2025-03-28 20:13:17,366 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 20:13:17,368 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:13:19,177 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:13:19,215 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:13:19,222 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:14:52,224 - __main__ - INFO - Scheduled update completed. Added 4 new articles.
-2025-03-28 20:14:53,882 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-28 20:15:03,306 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:03] "GET /api/news?category=technology&limit=9&offset=18 HTTP/1.1" 200 -
-2025-03-28 20:15:03,534 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:03] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:15:08,630 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:08] "GET /api/news?category=technology&limit=9&offset=27 HTTP/1.1" 200 -
-2025-03-28 20:15:08,888 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:08] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:15:16,510 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:16] "GET /api/news?category=technology&limit=9&offset=36 HTTP/1.1" 200 -
-2025-03-28 20:15:16,750 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:16] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:15:22,442 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:22] "GET /api/news?category=technology&limit=9&offset=45 HTTP/1.1" 200 -
-2025-03-28 20:15:22,669 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:22] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:15:29,301 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:29] "GET /api/news?category=technology&limit=9&offset=27 HTTP/1.1" 200 -
-2025-03-28 20:15:29,557 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:29] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:15:34,260 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:34] "GET /api/news?category=technology&limit=9&offset=18 HTTP/1.1" 200 -
-2025-03-28 20:15:34,501 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:34] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:15:42,793 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:42] "GET /api/news?category=technology&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-28 20:15:43,032 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:43] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:15:47,001 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:47] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:15:47,231 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:15:47] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:17:13,968 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:17:14,254 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:17:17,122 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:17:17,172 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:17:17,189 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:17:21,445 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:17:21,757 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:17:25,480 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:17:25,550 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:17:25,576 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:17:28,685 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:17:28,988 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:17:33,421 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:17:33,475 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:17:33,493 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:17:34,619 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:17:34,961 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:23:46,967 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:23:47,057 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2025-04-03 07:18:44,197 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 07:18:44,206 - werkzeug - INFO -  * Restarting with stat
+2025-04-03 07:18:48,443 - __main__ - INFO - Running scheduled news update
+2025-04-03 07:18:48,517 - werkzeug - WARNING -  * Debugger is active!
+2025-04-03 07:18:48,533 - werkzeug - INFO -  * Debugger PIN: 783-044-093
+2025-04-03 07:19:13,945 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:19:13] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:19:14,195 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:19:14] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:19:38,160 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:19:38] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:19:53,571 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:19:53] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:19:53,796 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:19:53] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:19:54,057 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:19:54] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:19:54,304 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:19:54] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:20:00,329 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:00] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:20:00,641 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:00] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:20:02,044 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:02] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:20:02,272 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:02] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:20:09,535 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:09] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:20:09,768 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:09] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:20:13,289 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:13] "GET /api/news?category=sports&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:20:13,522 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:13] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:20:15,462 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:15] "GET /api/news?category=travel&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:20:15,685 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:15] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:20:17,945 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:17] "GET /api/news?category=travel&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:20:18,189 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:18] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:20:18,430 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:18] "GET /api/news?category=travel&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:20:18,652 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:18] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:20:22,192 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:22] "GET /api/news?category=travel&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:20:22,429 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:22] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:20:25,217 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:25] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:20:25,446 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:25] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:20:29,670 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:20:29] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:22:42,780 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:22:42] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:22:44,338 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:22:44] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:22:44,689 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:22:44] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:22:47,396 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:22:47] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:22:47,663 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:22:47] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:22:51,372 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:22:51] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:22:51,636 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:22:51] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:22:51,894 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:22:51] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
+2025-04-03 07:22:52,132 - werkzeug - INFO - 127.0.0.1 - - [03/Apr/2025 07:22:52] "GET /api/status HTTP/1.1" 200 -
+2025-04-03 07:23:19,709 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
+2025-04-03 07:23:21,619 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
+2025-04-04 13:12:44,086 - __main__ - INFO - Running scheduled news update
+2025-04-04 13:12:44,415 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://172.20.10.10:5000
-2025-03-28 20:23:47,057 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 20:23:47,061 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:23:49,386 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:23:49,428 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:23:49,434 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:25:42,953 - __main__ - INFO - Scheduled update completed. Added 1 new articles.
-2025-03-28 20:25:43,893 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-28 20:26:24,604 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:26:24,940 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:26:28,115 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:26:28,188 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:26:28,206 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:26:29,281 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:26:29,465 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:26:32,318 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:26:32,368 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:26:32,378 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:26:33,428 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:26:33,762 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:26:37,726 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:26:37,779 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:26:37,790 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:26:43,741 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:26:43,853 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.10:5000
-2025-03-28 20:26:43,854 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 20:26:43,860 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:26:45,797 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:26:45,837 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:26:45,848 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:28:26,702 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-28 20:28:26,705 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-28 20:34:10,522 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:34:10,675 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:35:08,691 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:35:08,764 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.10:5000
-2025-03-28 20:35:08,764 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 20:35:08,769 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:35:10,770 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:35:10,810 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:35:10,817 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:36:12,569 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:36:12,794 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:36:17,913 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:36:17,999 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:36:18,016 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:36:28,499 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:36:28,997 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:36:31,287 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:36:31,326 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:36:31,332 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:37:16,380 - __main__ - INFO - Scheduled update completed. Added 1 new articles.
-2025-03-28 20:37:32,055 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:37:32] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:37:32,285 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:37:32] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:37:32,538 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:37:32] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 20:37:32,771 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 20:37:32] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 20:37:55,122 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:37:55,353 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:37:57,384 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:37:57,449 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:37:57,468 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:37:59,519 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:37:59,671 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:38:01,906 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:38:01,965 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:38:01,980 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:38:06,070 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 20:38:06,233 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 20:38:08,336 - __main__ - INFO - Running scheduled news update
-2025-03-28 20:38:08,384 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 20:38:08,392 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 20:40:17,179 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-28 21:05:29,529 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:05:29] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 21:05:29,760 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:05:29] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 21:08:14,493 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:08:14,556 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:08:15,461 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:08:15,489 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:08:15,494 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:08:19,670 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:08:19,756 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:08:20,905 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:08:20,934 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:08:20,943 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:08:21,967 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:08:22,032 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:08:23,126 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:08:23,163 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:08:23,170 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:08:26,319 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:08:26,464 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:14:02,756 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:14:02,795 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.10:5000
-2025-03-28 21:14:02,795 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 21:14:02,797 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:14:03,783 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:14:03,808 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:14:03,812 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:15:28,125 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:15:28,276 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:15:29,490 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:15:29,523 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:15:29,527 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:15:42,287 - __main__ - INFO - Scheduled update completed. Added 6 new articles.
-2025-03-28 21:15:54,807 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:15:54,939 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:15:56,253 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:15:56,286 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:15:56,292 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:16:17,371 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:16:17,456 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:16:18,646 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:16:18,676 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:16:18,684 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:16:19,707 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:16:19,758 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:16:20,911 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:16:20,947 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:16:20,953 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:16:21,976 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:16:22,070 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:16:23,207 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:16:23,237 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:16:23,244 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:16:32,299 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:16:32,398 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:16:33,514 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:16:33,546 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:16:33,551 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:16:43,754 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:16:43,841 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:16:45,005 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:16:45,035 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:16:45,043 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:17:41,318 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:17:41,397 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:17:42,601 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:17:42,640 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:17:42,645 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:19:31,373 - __main__ - INFO - Scheduled update completed. Added 2 new articles.
-2025-03-28 21:21:35,535 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:21:35,611 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:21:36,709 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:21:36,730 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:21:36,734 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:21:37,750 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 21:21:37,815 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:29:00,107 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:29:00,152 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.10:5000
-2025-03-28 21:29:00,152 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 21:29:00,154 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 21:29:01,177 - __main__ - INFO - Running scheduled news update
-2025-03-28 21:29:01,203 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 21:29:01,208 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 21:31:21,818 - __main__ - INFO - Scheduled update completed. Added 23 new articles.
-2025-03-28 21:31:21,874 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-28 21:33:13,318 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:13] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 21:33:13,564 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:13] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 21:33:16,598 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:16] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 21:33:16,823 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:16] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 21:33:17,464 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:17] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 21:33:17,712 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:17] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 21:33:24,967 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:24] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 21:33:25,193 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:25] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 21:33:25,442 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:25] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 21:33:25,666 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:25] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 21:33:33,579 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:33] "GET /api/news?category=sports&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 21:33:33,820 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:33] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 21:33:34,052 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:34] "GET /api/news?category=sports&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 21:33:34,280 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:34] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 21:33:37,087 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:37] "GET /api/news?category=travel&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 21:33:37,334 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:37] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 21:33:37,568 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:37] "GET /api/news?category=travel&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 21:33:37,794 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 21:33:37] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:04:48,406 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:04:48] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:04:48,619 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:04:48] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:04:48,868 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:04:48] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:04:49,096 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:04:49] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:07:11,107 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:07:11] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:07:11,355 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:07:11] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:07:25,829 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:07:25] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:21:44,912 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:21:45,323 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:31:29,157 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:31:29,256 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.169.30:5000
-2025-03-28 22:31:29,256 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 22:31:29,260 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:31:31,163 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:31:31,222 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:31:31,235 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:34:42,040 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:34:42,346 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:34:45,011 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:34:45,108 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:34:45,131 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:34:46,225 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:34:46,548 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:34:51,210 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:34:51,318 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:34:51,339 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:34:54,416 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:34:54,719 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:34:59,797 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:34:59,859 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:34:59,873 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:35:24,784 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:35:24,962 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:35:28,118 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:35:28,242 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:35:28,265 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:35:40,462 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:35:40,721 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:35:43,426 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:35:43,501 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:35:43,529 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:36:41,882 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:36:42,139 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:36:44,720 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:36:44,830 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:36:44,849 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:36:48,873 - __main__ - INFO - Scheduled update completed. Added 4 new articles.
-2025-03-28 22:36:52,001 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:36:52,208 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:36:54,794 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:36:54,901 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:36:54,918 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:36:56,042 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:36:56,265 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:37:01,062 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:37:01,199 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:37:01,223 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:37:02,748 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:37:03,049 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:37:06,703 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:37:06,735 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:37:06,744 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:37:42,686 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:37:42,751 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.169.30:5000
-2025-03-28 22:37:42,751 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 22:37:42,753 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:37:44,482 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:37:44,521 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:37:44,531 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:38:36,209 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:38:36,481 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:40:11,094 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:40:11,168 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://192.168.169.30:5000
-2025-03-28 22:40:11,168 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 22:40:11,171 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:40:12,964 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:40:13,014 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:40:13,025 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:48:22,923 - werkzeug - INFO -  * Detected change in 'C:\\xampp\\htdocs\\newsilo\\python\\news_aggregator.py', reloading
-2025-03-28 22:48:23,218 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 22:48:26,261 - __main__ - INFO - Running scheduled news update
-2025-03-28 22:48:26,371 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 22:48:26,390 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 22:48:51,080 - __main__ - INFO - Scheduled update completed. Added 16 new articles.
-2025-03-28 22:48:54,002 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:48:54] "GET /api/news?category=travel&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:48:54,253 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:48:54] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:48:58,983 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:48:58] "GET /api/news?category=travel&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-28 22:48:59,241 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:48:59] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:51:41,902 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:41] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:51:42,141 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:42] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:51:42,386 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:42] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:51:42,617 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:42] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:51:48,890 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:48] "GET /api/news?category=sports&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:51:49,144 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:49] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:51:49,405 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:49] "GET /api/news?category=sports&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:51:49,636 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:49] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:51:52,892 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:52] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:51:53,123 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:53] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:51:53,358 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:53] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:51:53,588 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:53] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:51:59,063 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:59] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:51:59,294 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:59] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:51:59,622 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:59] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:51:59,876 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:51:59] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:52:06,677 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:52:06] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:52:06,940 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:52:06] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:52:07,212 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:52:07] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:52:07,450 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:52:07] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:52:12,202 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:52:12] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:52:12,525 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:52:12] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:52:12,528 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:52:12] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:52:12,762 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:52:12] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:52:20,284 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:52:20] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:52:28,594 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:52:28] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:52:31,557 - __main__ - INFO - Scheduled update completed. Added 3 new articles.
-2025-03-28 22:52:37,371 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:52:37] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:53:58,623 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:53:58] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:53:58,847 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:53:58] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:53:58,850 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:53:58] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:53:59,096 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:53:59] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:54:01,613 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:54:01] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:54:01,843 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:54:01] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:57:04,471 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:57:04] "GET /api/news?category=travel&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:57:04,693 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:57:04] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 22:57:04,935 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:57:04] "GET /api/news?category=travel&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 22:57:05,169 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 22:57:05] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 23:01:12,878 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 23:01:12] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 23:01:13,114 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 23:01:13] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 23:01:22,143 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 23:01:22] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 23:56:25,018 - __main__ - INFO - Running scheduled news update
-2025-03-28 23:56:25,099 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.10:5000
-2025-03-28 23:56:25,099 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-28 23:56:25,102 - werkzeug - INFO -  * Restarting with stat
-2025-03-28 23:56:27,017 - __main__ - INFO - Running scheduled news update
-2025-03-28 23:56:27,088 - werkzeug - WARNING -  * Debugger is active!
-2025-03-28 23:56:27,105 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-28 23:56:29,535 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 23:56:29] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 23:56:30,118 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 23:56:30] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-28 23:56:36,276 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 23:56:36] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 23:56:36,510 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 23:56:36] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 23:56:39,237 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 23:56:39] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 23:56:39,480 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 23:56:39] "GET /api/status HTTP/1.1" 200 -
-2025-03-28 23:56:39,757 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 23:56:39] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-28 23:56:39,997 - werkzeug - INFO - 127.0.0.1 - - [28/Mar/2025 23:56:39] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:01:28,998 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:01:28] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:01:29,225 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:01:29] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:02:15,753 - __main__ - INFO - Scheduled update completed. Added 9 new articles.
-2025-03-29 00:02:32,057 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-29 00:07:08,300 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:07:08] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:07:08,533 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:07:08] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:07:09,033 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:07:09] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:07:09,270 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:07:09] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:14:45,675 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:14:45] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:14:45,923 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:14:45] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:14:53,468 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:14:53] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:14:53,691 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:14:53] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:15:08,184 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:15:08] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:15:32,256 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:15:32] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:15:32,471 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:15:32] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:16:07,583 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:16:07] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:18:40,345 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:18:40] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:18:40,579 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:18:40] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:18:49,204 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:18:49] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:18:49,427 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:18:49] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:18:59,507 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:18:59] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:18:59,739 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:18:59] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:19:23,813 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:19:23] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:19:24,039 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:19:24] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:19:34,592 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:19:34] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:19:34,807 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:19:34] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:20:18,813 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:20:18] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:20:19,052 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:20:19] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:20:20,795 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:20:20] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:20:21,029 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:20:21] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:20:22,472 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:20:22] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:20:22,709 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:20:22] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:21:19,225 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:21:19] "GET /api/news?category=education&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-29 00:21:19,463 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:21:19] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:21:19,719 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:21:19] "GET /api/news?category=education&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-29 00:21:19,949 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:21:19] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:21:20,195 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:21:20] "GET /api/news?category=education&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-29 00:21:20,433 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:21:20] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:21:20,667 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:21:20] "GET /api/news?category=education&limit=9&offset=9 HTTP/1.1" 200 -
-2025-03-29 00:21:20,898 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:21:20] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:22:02,669 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:22:02] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:22:02,910 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:22:02] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:22:02,919 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:22:02] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:22:03,155 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:22:03] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:22:48,515 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:22:48] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:22:48,741 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:22:48] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:22:54,547 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:22:54] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:22:54,784 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:22:54] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:22:55,317 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:22:55] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:22:55,559 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:22:55] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:23:05,288 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:23:05] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:23:05,519 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:23:05] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:23:45,520 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:23:45] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:01,645 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:01] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:01,864 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:01] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:05,122 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:05] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:05,342 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:05] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:08,003 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:08] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:08,232 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:08] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:15,015 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:15] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:15,249 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:15] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:17,619 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:17] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:17,855 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:17] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:18,756 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:18] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:18,978 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:18] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:19,795 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:19] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:20,021 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:20] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:20,721 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:20] "GET /api/news?category=sports&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:20,958 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:20] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:28,314 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:28] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:28,546 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:28] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:33,150 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:33] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:33,387 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:33] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:34,260 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:34] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:34,498 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:34] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:35,408 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:35] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:35,645 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:35] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:36,474 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:36] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:36,701 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:36] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:25:38,142 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:38] "GET /api/news?category=sports&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:25:38,381 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:25:38] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:28:14,118 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:14] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:28:14,344 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:14] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:28:16,558 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:16] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:28:19,114 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:19] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:28:19,439 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:19] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:28:27,994 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:27] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:28:28,245 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:28] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:28:42,215 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:42] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:28:47,169 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:47] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:28:47,405 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:47] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:28:48,995 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:48] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:28:50,865 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:50] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:28:51,104 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:51] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:28:52,235 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:52] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:28:52,475 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:52] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:28:53,363 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:53] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:28:53,593 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:53] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:28:56,353 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:56] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:28:56,583 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:28:56] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:29:07,296 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:29:07] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:29:07,529 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:29:07] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:29:21,805 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:29:21] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:29:23,231 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:29:23] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:29:23,470 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:29:23] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:29:25,243 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:29:25] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:29:25,488 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:29:25] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:29:26,547 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:29:26] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:29:26,773 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:29:26] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:29:29,636 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:29:29] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:29:29,860 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:29:29] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:01,709 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:01] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:30:01,940 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:01] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:12,948 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:12] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:18,470 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:18] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:20,740 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:20] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:20,989 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:20] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:21,246 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:21] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:21,492 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:21] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:21,735 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:21] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:24,148 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:24] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:24,383 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:24] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:24,620 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:24] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:24,861 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:24] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:25,782 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:25] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:26,008 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:26] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:30:27,741 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:27] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:29,706 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:29] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:29,936 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:29] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:30:31,616 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:31] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:30:31,845 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:31] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:30:48,785 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:30:48] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:31:42,558 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:31:42] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:31:42,792 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:31:42] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:33:18,184 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:33:18] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:33:18,408 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:33:18] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:44:53,292 - __main__ - INFO - Running scheduled news update
-2025-03-29 00:44:53,405 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.10:5000
-2025-03-29 00:44:53,405 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-29 00:44:53,409 - werkzeug - INFO -  * Restarting with stat
-2025-03-29 00:44:56,557 - __main__ - INFO - Running scheduled news update
-2025-03-29 00:44:56,636 - werkzeug - WARNING -  * Debugger is active!
-2025-03-29 00:44:56,664 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-29 00:44:56,821 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:44:56] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:44:57,046 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:44:57] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:45:04,338 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:45:04] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:45:04,624 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:45:04] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:45:06,672 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:45:06] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:45:06,897 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:45:06] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:45:12,897 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:45:12] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:45:15,311 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:45:15] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:45:15,598 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:45:15] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:45:17,672 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:45:17] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:45:17,903 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:45:17] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:45:53,534 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:45:53] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:45:53,768 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:45:53] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:47:57,681 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:47:57] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:47:57,935 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:47:57] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:47:59,949 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:47:59] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 00:48:00,187 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 00:48:00] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 00:50:07,550 - __main__ - INFO - Scheduled update completed. Added 2 new articles.
-2025-03-29 00:50:28,326 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-29 01:05:36,882 - __main__ - INFO - Running scheduled news update
-2025-03-29 01:05:37,198 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.10:5000
-2025-03-29 01:05:37,198 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-29 01:05:37,206 - werkzeug - INFO -  * Restarting with stat
-2025-03-29 01:05:43,220 - __main__ - INFO - Running scheduled news update
-2025-03-29 01:05:43,343 - werkzeug - WARNING -  * Debugger is active!
-2025-03-29 01:05:43,364 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-29 01:05:43,584 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 01:05:43] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 01:05:43,820 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 01:05:43] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 01:10:22,676 - __main__ - INFO - Scheduled update completed. Added 1 new articles.
-2025-03-29 01:11:04,514 - __main__ - INFO - Scheduled update completed. Added 1 new articles.
-2025-03-29 04:48:50,047 - __main__ - INFO - Running scheduled news update
-2025-03-29 04:48:50,450 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.10:5000
-2025-03-29 04:48:50,451 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-29 04:48:50,461 - werkzeug - INFO -  * Restarting with stat
-2025-03-29 04:48:53,977 - __main__ - INFO - Running scheduled news update
-2025-03-29 04:48:54,023 - werkzeug - WARNING -  * Debugger is active!
-2025-03-29 04:48:54,047 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-29 04:53:05,829 - __main__ - INFO - Scheduled update completed. Added 10 new articles.
-2025-03-29 04:53:05,971 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-29 07:58:41,257 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 07:58:41] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 07:58:41,486 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 07:58:41] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:52:04,988 - __main__ - INFO - Running scheduled news update
-2025-03-29 08:52:05,260 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on all addresses (0.0.0.0)
- * Running on http://127.0.0.1:5000
- * Running on http://172.20.10.10:5000
-2025-03-29 08:52:05,261 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
-2025-03-29 08:52:05,268 - werkzeug - INFO -  * Restarting with stat
-2025-03-29 08:52:07,569 - __main__ - INFO - Running scheduled news update
-2025-03-29 08:52:07,625 - werkzeug - WARNING -  * Debugger is active!
-2025-03-29 08:52:07,638 - werkzeug - INFO -  * Debugger PIN: 783-044-093
-2025-03-29 08:52:35,137 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:52:35] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:52:35,407 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:52:35] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:53:32,403 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:53:32] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:53:42,588 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:53:42] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:53:42,818 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:53:42] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:53:46,898 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:53:46] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:53:47,124 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:53:47] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:53:51,338 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:53:51] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:53:51,562 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:53:51] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:53:57,202 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:53:57] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:53:57,438 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:53:57] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:54:02,483 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:02] "GET /api/news?category=sports&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:54:02,728 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:02] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:54:06,595 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:06] "GET /api/news?category=travel&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:54:06,843 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:06] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:54:11,617 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:11] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:54:11,849 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:11] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:54:12,121 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:12] "GET /api/news?category=entertainment&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:54:12,353 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:12] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:54:24,424 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:24] "GET /api/news?category=technology&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:54:24,666 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:24] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:54:26,103 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:26] "GET /api/news?category=politics&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:54:26,336 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:26] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:54:27,752 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:27] "GET /api/news?category=education&limit=9&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:54:27,999 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:54:27] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 08:56:17,850 - __main__ - INFO - Scheduled update completed. Added 19 new articles.
-2025-03-29 08:56:18,037 - __main__ - INFO - Scheduled update completed. Added 0 new articles.
-2025-03-29 08:58:49,638 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:58:49] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 08:58:56,572 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 08:58:56] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:00:51,741 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:00:51] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:00:56,471 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:00:56] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:00:56,710 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:00:56] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:00:58,767 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:00:58] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:00:59,030 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:00:59] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:01:13,204 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:01:13] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 09:01:13,454 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:01:13] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:01:20,477 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:01:20] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:01:28,302 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:01:28] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 09:01:28,529 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:01:28] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:01:40,172 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:01:40] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 09:01:40,407 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:01:40] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:26:24,264 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:26:24] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 09:26:24,531 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:26:24] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:26:25,006 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:26:25] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 09:26:25,263 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:26:25] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:26:44,163 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:26:44] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 09:26:44,421 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:26:44] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
-2025-03-29 09:26:54,849 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:26:54] "GET /api/status HTTP/1.1" 200 -
-2025-03-29 09:26:55,077 - werkzeug - INFO - 127.0.0.1 - - [29/Mar/2025 09:26:55] "GET /api/news?limit=6&offset=0 HTTP/1.1" 200 -
+2025-04-04 13:12:44,415 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 13:12:44,422 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 13:12:48,428 - __main__ - INFO - Running scheduled news update
+2025-04-04 13:12:48,504 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 13:12:48,523 - werkzeug - INFO -  * Debugger PIN: 783-044-093
