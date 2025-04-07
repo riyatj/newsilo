@@ -1,126 +1,131 @@
 
-  .bg{    
-    background-color: black;
-  }
-  
-  .navbar-brand{
-      font-size: 35px;
-  }
-  .dot{
+.bg{    
+  background-color: black;
+}
+
+.navbar-brand{
+    font-size: 35px;
+}
+
+.dot{
+  text-align: center;
+}
+
+.icons{
+  text-align: center;
+}
+
+#form{
+    background-color: rgb(255, 255, 255);
+    width:28%;
+    border-radius: 6px;
+    margin:100px auto;
+    padding:40px 0px;
+    box-shadow: 10px 10px 5px rgb(146, 144, 146);
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
     text-align: center;
-  }
+    color: white;
+    margin-top: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-  .icons{
-    text-align: center;
-  }
-  
-  #form{
-      background-color: rgb(255, 255, 255);
-      width:28%;
-      border-radius: 6px;
-      margin:100px auto;
-      padding:40px 0px;
-      box-shadow: 10px 10px 5px rgb(146, 144, 146);
-      margin-top: 0px;
-      font-family: 'Times New Roman', Times, serif;
-  }
-  h1{
-      text-align: center;
-      color: white;
-      margin-top: 40px;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
+input{
+    width: 90%;
+    border-radius: 4px;
+    border: 3px solid #f6efef;
+    padding: 5px;
+}
 
+#btn{
+    width: 100%;
+    color:rgb(255, 255, 255);
+    background-color: rgb(12, 3, 21);
+    padding:10px;
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 10px;
+}
 
-  input{
-      width: 90%;
-      border-radius: 4px;
-      border: 3px solid #f6efef;
-      padding: 5px;
-  }
-  
-  #btn{
-      width: 100%;
-      color:rgb(255, 255, 255);
-      background-color: rgb(12, 3, 21);
-      padding:10px;
-      font-weight: 700;
-      font-size: larger;
-      border-radius: 10px;
-  }
-  form label{
-      color:rgb(100, 100, 100);
-      font-size: 18px;
-      font-weight:500;
-  }
+form label{
+    color:rgb(100, 100, 100);
+    font-size: 18px;
+    font-weight:500;
+}
 
-  .links{
-    display:flex;
-    justify-content:space-around;
-    padding:0 4rem;
-    margin-top:0.9rem;
-    font-weight:bold;
+.links{
+  display:flex;
+  justify-content:space-around;
+  padding:0 4rem;
+  margin-top:0.9rem;
+  font-weight:bold;
 }
 
 .btnSign {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  color: #fff;
-  background-color: #6e7175;
-  border: none;
-  border-radius: 5px;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  transition: background-color 0.3s;
+display: inline-block;
+padding: 10px 20px;
+font-size: 16px;
+color: #fff;
+background-color: #6e7175;
+border: none;
+border-radius: 5px;
+text-align: center;
+text-decoration: none;
+cursor: pointer;
+transition: background-color 0.3s;
 }
 
 .quote{
-  color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 }
 
 #form_quote{
-  background-color: rgb(0, 0, 0);
-  width:28%;
-  border-radius: 6px;
-  margin:100px auto;
-  padding:40px 0px;
-  box-shadow: 10px 10px 5px rgb(146, 144, 146);
-  margin-top: 0px;
-  font-family: 'Times New Roman', Times, serif;
-  padding: 20px;
-  font-size: 25px ;
+background-color: rgb(0, 0, 0);
+width:28%;
+border-radius: 6px;
+margin:100px auto;
+padding:40px 0px;
+box-shadow: 10px 10px 5px rgb(146, 144, 146);
+margin-top: 0px;
+font-family: 'Times New Roman', Times, serif;
+padding: 20px;
+font-size: 25px ;
 }
 
 .author{
-  font-size: 15px;
-  color: white;
-  font-family: cursive;
-  text-align: right;
+font-size: 15px;
+color: white;
+font-family: cursive;
+text-align: right;
 }
 
 .forgot-password{
-  color: #000;
+color: #000;
 }
-  @media screen and (max-width: 1350px) {
-      #form {
-        width: 40%;
-        margin-left:none;
-        padding:40px;
-      }
+
+@media screen and (max-width: 1350px) {
+    #form {
+      width: 40%;
+      margin-left:none;
+      padding:40px;
     }
-  @media screen and (max-width: 1100px) {
-      #form {
-        width: 50%;
-        margin-left:none;
-        padding:40px;
-      }
+  }
+
+@media screen and (max-width: 1100px) {
+    #form {
+      width: 50%;
+      margin-left:none;
+      padding:40px;
     }
-  @media screen and (max-width: 700px) {
-      #form {
-        width: 80%;
-        margin-left:none;
-        padding:40px;
-      }
+  }
+  
+@media screen and (max-width: 700px) {
+    #form {
+      width: 80%;
+      margin-left:none;
+      padding:40px;
     }
+  }
