@@ -27,7 +27,6 @@
             <h5>Help</h5>
                 <ul class="list-unstyled">
                     <li><a href="contact.html" class="text-white">Contact Us</a></li>
-                    <li><a href="category.php?category=entertainment" class="text-white">Privacy Policy</a></li>
             </ul>
             </div>
         </div>

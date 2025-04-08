@@ -334,6 +334,7 @@ function getDashboardStats($pdo) {
                     <li><a href="?table=news_articles">News Articles</a></li>
                     <li><a href="?table=users">Users</a></li>
                     <li><a href="?table=contact_messages">Contact Messages</a></li>
+                    <li><a href="welcome.php">Newsilo</a></li>
                 </ul>
             </div>
             <div class="content">
@@ -411,7 +412,10 @@ function getDashboardStats($pdo) {
                 
                 <?php elseif ($action === 'list'): ?>
                     <h1>Manage <?php echo ucfirst($table); ?></h1>
+                    
+                    <?php if ($table !== 'contact_messages'): ?>
                     <a href="?table=<?php echo $table; ?>&action=add" class="btn btn-primary">Add New</a>
+                    <?php endif; ?>
                     
                     <?php
                     // Get total records
@@ -451,7 +455,6 @@ function getDashboardStats($pdo) {
                                         <a href="?table=<?php echo $table; ?>&action=edit&id=<?php echo $record['id']; ?>" class="btn btn-edit">Edit</a>
                                         <a href="?table=<?php echo $table; ?>&action=delete&id=<?php echo $record['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
                                     <?php else: ?>
-                                        <!-- For users and contact_messages, only show Delete button -->
                                         <a href="?table=<?php echo $table; ?>&action=delete&id=<?php echo $record['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
                                     <?php endif; ?>
                                 </td>

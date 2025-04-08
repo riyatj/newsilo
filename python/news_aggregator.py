@@ -21,10 +21,6 @@ class NewsAggregator:
                 {"url": "https://www.hindustantimes.com/", "site": "Hindustan Times"},
                 {"url": "https://www.reddit.com/" , "site": "Reddit"}
             ],
-            "business": [
-                {"url": "https://economictimes.indiatimes.com/", "site": "Economic Times"},
-                {"url": "https://www.livemint.com/", "site": "Mint"}
-            ],
             "technology": [
                 {"url": "https://techcrunch.com/", "site": "techcrunch"},
                 {"url": "https://www.theverge.com/tech", "site": "The Verge tech"},

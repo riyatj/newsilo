@@ -12,7 +12,7 @@ $message = $_POST['message'];
 $sql = "INSERT INTO contact_messages (name, email, message) VALUES ('$name', '$email', '$message')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Message send successfully!";
+    echo "Message send successfully!<a href='welcome.php'>Go to home</a>";
 } else {
     echo "Error: " . $conn->error;
 }

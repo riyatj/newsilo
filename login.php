@@ -7,6 +7,12 @@
 <?php
     $login = false;
     include('connection.php');
+    
+    // Initialize variables to preserve form data
+    $username = "";
+    $error_message = "";
+    $error_field = "";
+    
     if (isset($_POST['submit'])) {
         $username = $_POST['user'];
         $password = $_POST['pass'];
@@ -29,17 +35,16 @@
                 header("Location: welcome.php");
             }
             else {
-                echo  '<script>
-                            alert("Login failed. Invalid password!!")
-                            window.location.href = "login.php";
-                        </script>';
+                // Password error - keep username but clear password
+                $error_message = "Login failed. Invalid password!!";
+                $error_field = "pass";
             }
         }  
         else{  
-            echo  '<script>
-                        alert("Login failed. Invalid username or email!!")
-                        window.location.href = "login.php";
-                    </script>';
+            // Username error - clear both
+            $error_message = "Login failed. Invalid username or email!!";
+            $error_field = "user";
+            $username = "";
         }     
     }
 ?>
@@ -56,9 +61,14 @@
         <h1>LOG IN TO NEWSILO</h1>
         <br>
         <div id="form">
+            <!-- Display error message if exists -->
+            <?php if(!empty($error_message)): ?>
+                <div class="alert alert-danger"><?php echo $error_message; ?></div>
+            <?php endif; ?>
+            
             <form name="form" action="login.php" method="POST" required>
                 <label>Enter Username/Email: </label>
-                <input type="text" id="user" name="user" required></br></br>
+                <input type="text" id="user" name="user" value="<?php echo htmlspecialchars($username); ?>" required></br></br>
                 <label>Password: </label>
                 <div class="password-container">
                     <input type="password" id="pass" name="pass" required>
@@ -97,13 +107,11 @@
                 }
             }
 
-            function isvalid(){
-                var user = document.form.user.value;
-                if(user.length==""){
-                    alert(" Enter username or email id!");
-                    return false;
-                }
-            }
+            // Focus on the error field if specified
+            <?php if(!empty($error_field)): ?>
+                document.getElementById('<?php echo $error_field; ?>').focus();
+                document.getElementById('<?php echo $error_field; ?>').value = '';
+            <?php endif; ?>
         </script>
     </body>
 </html>

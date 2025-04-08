@@ -6,6 +6,13 @@
 ?>
 <?php
     include("connection.php");
+    
+    // Initialize variables to preserve form data
+    $username = "";
+    $email = "";
+    $error_message = "";
+    $error_field = "";
+    
     if(isset($_POST['submit'])){
         $username = mysqli_real_escape_string($conn, $_POST['user']);
         $email = mysqli_real_escape_string($conn, $_POST['email']);
@@ -20,7 +27,7 @@
         $result = mysqli_query($conn, $sql);
         $count_email = mysqli_num_rows($result);
 
-        if($count_user == 0 & $count_email==0){
+        if($count_user == 0 && $count_email==0){
             if($password==$cpassword){
                 $hash = password_hash($password, PASSWORD_DEFAULT);
                 $sql = "INSERT INTO users(username, email, password) VALUES('$username', '$email', '$hash')";
@@ -30,27 +37,25 @@
                 }
             }
             else{
-                echo '<script>
-                    alert("Passwords do not match");
-                    window.location.href = "signup.php";
-                </script>';
+                // Passwords don't match - keep username and email
+                $error_message = "Passwords do not match";
+                $error_field = "pass";
             }
         }
         else{
             if($count_user>0){
-                echo '<script>
-                    window.location.href="index.php";
-                    alert("Username already exists!!");
-                </script>';
+                // Username exists - clear username, keep email
+                $error_message = "Username already exists!!";
+                $error_field = "user";
+                $username = "";
             }
             if($count_email>0){
-                echo '<script>
-                    window.location.href="index.php";
-                    alert("Email already exists!!");
-                </script>';
+                // Email exists - clear email, keep username
+                $error_message = "Email already exists!!";
+                $error_field = "email";
+                $email = "";
             }
         }
-        
     }
 ?>
 
@@ -68,12 +73,18 @@
   <h1>SIGN UP TO NEWSILO</h1>
   <br>
     <div id="form">
-        <h1 id="heading">SignUp Form</h1>   
+        <h1 id="heading">SignUp Form</h1>
+        
+        <!-- Display error message if exists -->
+        <?php if(!empty($error_message)): ?>
+            <div class="alert alert-danger"><?php echo $error_message; ?></div>
+        <?php endif; ?>
+        
         <form name="form" action="signup.php" method="POST">
             <label>Enter Username: </label>
-            <input type="text" id="user" name="user" required><br><br>
+            <input type="text" id="user" name="user" value="<?php echo htmlspecialchars($username); ?>" required><br><br>
             <label>Enter Email: </label>
-            <input type="email" id="email" name="email" required><br><br>
+            <input type="email" id="email" name="email" value="<?php echo htmlspecialchars($email); ?>" required><br><br>
             <label>Create Password: </label>
             <input type="password" id="pass" name="pass" required><br><br>
             <label>Retype Password: </label>
@@ -92,5 +103,12 @@
         </form>
     </div> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+        // Focus on the error field if specified
+        <?php if(!empty($error_field)): ?>
+            document.getElementById('<?php echo $error_field; ?>').focus();
+            document.getElementById('<?php echo $error_field; ?>').value = '';
+        <?php endif; ?>
+    </script>
   </body>
 </html>
