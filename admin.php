@@ -302,7 +302,7 @@ function getDashboardStats($pdo) {
 <body>
     <?php if (!isset($_SESSION['user_id'])): ?>
         <div class="login-form">
-            <h2>NewsIlo Admin Login</h2>
+            <h2>Newsilo Admin Login</h2>
             <?php if (isset($login_error)): ?>
                 <div class="error"><?php echo $login_error; ?></div>
             <?php endif; ?>
@@ -447,8 +447,13 @@ function getDashboardStats($pdo) {
                                 <td><?php echo htmlspecialchars(substr($value, 0, 100)); ?><?php echo strlen($value) > 100 ? '...' : ''; ?></td>
                                 <?php endforeach; ?>
                                 <td class="actions">
-                                    <a href="?table=<?php echo $table; ?>&action=edit&id=<?php echo $record['id']; ?>" class="btn btn-edit">Edit</a>
-                                    <a href="?table=<?php echo $table; ?>&action=delete&id=<?php echo $record['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
+                                    <?php if ($table === 'news_articles'): ?>
+                                        <a href="?table=<?php echo $table; ?>&action=edit&id=<?php echo $record['id']; ?>" class="btn btn-edit">Edit</a>
+                                        <a href="?table=<?php echo $table; ?>&action=delete&id=<?php echo $record['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
+                                    <?php else: ?>
+                                        <!-- For users and contact_messages, only show Delete button -->
+                                        <a href="?table=<?php echo $table; ?>&action=delete&id=<?php echo $record['id']; ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this record?')">Delete</a>
+                                    <?php endif; ?>
                                 </td>
                             </tr>
                             <?php endforeach; ?>
